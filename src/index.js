@@ -5,4 +5,4 @@ import Badge from './components/Badge.js';
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<Badge/>, container);
+ReactDOM.render(<Badge />, container);
