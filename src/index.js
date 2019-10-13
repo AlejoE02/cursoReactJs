@@ -5,7 +5,8 @@ import './global.css';
 
 // import Badge from './components/Badge.js';
 import BadgeNew from './pages/BadgeNew.js';
+import Badges from './pages/Badges.js';
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<BadgeNew />,container);
+ReactDOM.render(<Badges />,container);
