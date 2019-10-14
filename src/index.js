@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 
 // import Badge from './components/Badge.js';
-import BadgeNew from './pages/BadgeNew.js';
-import Badges from './pages/Badges.js';
+
+import App from './components/App';
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<Badges />,container);
+ReactDOM.render(<App />,container);
